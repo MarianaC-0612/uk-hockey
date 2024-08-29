@@ -25,8 +25,8 @@ export default function RootLayout({
           UK Hockey
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/player" className="hover:underline" prefetch={false}>
-            Player
+          <Link href="/players" className="hover:underline" prefetch={false}>
+            Players
           </Link>
           <Link href="/teams" className="hover:underline" prefetch={false}>
             Teams
