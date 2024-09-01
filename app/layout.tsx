@@ -20,50 +20,68 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <header className="bg-secondary text-primary py-4 px-6 md:px-10 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold" prefetch={false}>
-          UK Hockey
-        </Link>
-        <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/players" className="hover:underline" prefetch={false}>
-            Players
+        <header className="bg-secondary text-primary py-4 px-6 md:px-10 flex items-center justify-between">
+          <Link href="/" className="text-2xl font-bold" prefetch={false}>
+            UK Hockey
           </Link>
-          <Link href="/teams" className="hover:underline" prefetch={false}>
-            Teams
-          </Link>
-          <Link href="/wall-of-fame" className="hover:underline" prefetch={false}>
-            Wall of Fame
-          </Link>
-          <Link href="/contact-us" className="hover:underline" prefetch={false}>
-            Contact Us
-          </Link>
+          <nav className="hidden md:flex items-center space-x-6">
+            <Link href="/players" className="hover:underline" prefetch={false}>
+              Players
+            </Link>
+            <Link href="/teams" className="hover:underline" prefetch={false}>
+              Teams
+            </Link>
+            <Link href="/pathways" className="hover:underline" prefetch={false}>
+              Pathways
+            </Link>
+            <Link href="/wall-of-fame" className="hover:underline" prefetch={false}>
+              Wall of Fame
+            </Link>
+            <Link href="/contact-us" className="hover:underline" prefetch={false}>
+              Contact Us
+            </Link>
 
-          <Button variant="default">
-            Sign In
-          </Button>
-        </nav>
-        <Button variant="outline" size="icon" className="md:hidden">
-          <MenuIcon className="h-6 w-6" />
-          <span className="sr-only">Toggle navigation</span>
-        </Button>
-      </header>
-      {children}
-      <footer className="bg-muted text-muted-foreground py-6 px-6 md:px-10">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-          <p>&copy; 2024 Hockey Website</p>
-          <nav className="flex items-center space-x-4 mt-4 md:mt-0">
-            <Link href="#" className="hover:underline" prefetch={false}>
-              About
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Terms
-            </Link>
+            <Button variant="default">Sign In</Button>
           </nav>
+          <Button variant="outline" size="icon" className="md:hidden">
+            <MenuIcon className="h-6 w-6" />
+            <span className="sr-only">Toggle navigation</span>
+          </Button>
+        </header>
+
+        <div className="relative">
+          {/* Background image on left and right */}
+          <div
+            className="absolute inset-y-0 left-0 w-24 bg-[url('/pic2.png')] bg-cover bg-no-repeat"
+            style={{ backgroundPosition: "left center" }}
+          ></div>
+          <div
+            className="absolute inset-y-0 right-0 w-24 bg-[url('/pic2.png')] bg-cover bg-no-repeat"
+            style={{ backgroundPosition: "right center" }}
+          ></div>
+
+          {/* Main content area with reduced padding */}
+          <main className="relative py-8 px-2 md:px-4 bg-white max-w-4xl mx-auto">
+            {children}
+          </main>
         </div>
-      </footer>
+
+        <footer className="bg-muted text-muted-foreground py-6 px-6 md:px-10">
+          <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <p>&copy; 2024 Hockey Website</p>
+            <nav className="flex items-center space-x-4 mt-4 md:mt-0">
+              <Link href="#" className="hover:underline" prefetch={false}>
+                About
+              </Link>
+              <Link href="#" className="hover:underline" prefetch={false}>
+                Privacy
+              </Link>
+              <Link href="#" className="hover:underline" prefetch={false}>
+                Terms
+              </Link>
+            </nav>
+          </div>
+        </footer>
       </body>
     </html>
   );
