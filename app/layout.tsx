@@ -41,7 +41,9 @@ export default function RootLayout({
               Contact Us
             </Link>
 
-            <Button variant="default">Sign In</Button>
+            <Link href="/sign-in" passHref>
+              <Button variant="default">Sign In</Button>
+            </Link>
           </nav>
           <Button variant="outline" size="icon" className="md:hidden">
             <MenuIcon className="h-6 w-6" />

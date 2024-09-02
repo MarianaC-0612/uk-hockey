@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const CenteredBoxes = () => {
+const TeamsPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen space-y-6 mt-[-50px]">
       {/* Heading */}
@@ -25,4 +25,4 @@ const CenteredBoxes = () => {
   );
 };
 
-export default CenteredBoxes;
+export default TeamsPage;
