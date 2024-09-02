@@ -31,8 +31,7 @@ export default function ContactUsPage() {
     };
 
     // Get the recipient email based on the selected 'toWhom' value
-    const recipientEmail = recipientEmails[formData.toWhom] || 'default@example.com';
-
+    const recipientEmail = recipientEmails[formData.toWhom as keyof typeof recipientEmails] || 'default@example.com';
     // Send email using EmailJS
     emailjs.send(
       'mjcc-service-id',       // Your actual EmailJS service ID
