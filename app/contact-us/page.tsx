@@ -12,7 +12,7 @@ export default function ContactUsPage() {
     toWhom: 'Mariana Caceres' // Default selection
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -20,7 +20,7 @@ export default function ContactUsPage() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Map of recipient names to email addresses
@@ -158,6 +158,7 @@ export default function ContactUsPage() {
         >
           Submit
         </button>
+
       </form>
     </div>
   );

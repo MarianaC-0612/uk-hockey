@@ -1,9 +1,11 @@
+/* signIn.module.css */
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff; /* Set the background color to white */
+    background-color: #ffffff; /* Ensure background color is white */
   }
   
   .signInBox {
