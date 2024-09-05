@@ -1,5 +1,5 @@
 "use client";
-
+import React, { FormEvent } from 'react';
 export default function HockeyPlayers() {
   const players = [
     {
@@ -53,10 +53,11 @@ export default function HockeyPlayers() {
     },
   ];
 
-  const handleSearch = (event) => {
+
+  const handleSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     // Add your search/filter logic here
-  };
+  };  
 
   return (
     <div className="container mx-auto p-6">
