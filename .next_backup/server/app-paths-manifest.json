@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/sign-in/page": "app/sign-in/page.js",
+  "/players/page": "app/players/page.js",
+  "/page": "app/page.js",
+  "/pathways/page": "app/pathways/page.js",
+  "/wall-of-fame/page": "app/wall-of-fame/page.js",
+  "/teams/page": "app/teams/page.js"
+}

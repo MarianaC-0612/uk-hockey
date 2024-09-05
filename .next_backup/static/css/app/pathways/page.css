@@ -1,0 +1,53 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/pathways/pathways.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.pathways_container__47VSZ {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pathways_title__9ge3g {
+    margin: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .pathways_grid__Iy0hm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .pathways_card__30C4y {
+    padding: 1.5rem;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+  
+  .pathways_card__30C4y:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pathways_cardContent__ms02C {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pathways_description__HnHFD {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

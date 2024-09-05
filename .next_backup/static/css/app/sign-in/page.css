@@ -1,0 +1,128 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/sign-in/signIn.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/* signIn.module.css */
+
+.signIn_container__Uw4Lc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Ensure background color is white */
+  }
+  
+  .signIn_signInBox__ipleX {
+    background: white; /* Ensure the sign-in box is white */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: none; /* Remove the box shadow */
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signIn_title__gvl3Q {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .signIn_form__Xaxyc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signIn_field___unKf {
+    margin-bottom: 1rem;
+  }
+  
+  .signIn_label__kH33q {
+    font-weight: bold;
+  }
+  
+  .signIn_input__6J_3B {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .signIn_forgotPassword__XJX7K {
+    display: block;
+    margin-top: 0.5rem;
+    color: #0070f3;
+    text-decoration: none;
+    text-align: left; /* Align the link to the left */
+  }
+  
+  .signIn_button__YP_5v {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .signIn_error__9FVLE {
+    color: red;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .signIn_orSeparator__EF_6h {
+    margin: 1.5rem 0;
+    text-align: center;
+    color: #888;
+  }
+  
+  .signIn_socialButtons__teABt {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signIn_socialButton__bdjq_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signIn_microsoftButton__NkMzO {
+    background-color: #f3f3f3;
+    color: #000;
+  }
+  
+  .signIn_googleButton__ZnXLU {
+    background-color: #6ab0f3; /* A lighter blue color */
+    color: white;
+  }
+  
+  .signIn_icon__nJk_2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .signIn_additionalLinks__YB5id {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .signIn_additionalLinks__YB5id a {
+    color: #0070f3;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .signIn_signUpLink__7lYI0 {
+    color: #0070f3;
+    text-decoration: underline; /* Underline the sign-up link */
+  }
+  
