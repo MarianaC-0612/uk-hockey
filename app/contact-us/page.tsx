@@ -26,7 +26,7 @@ export default function ContactUsPage() {
     // Map of recipient names to email addresses
     const recipientEmails = {
       'Mariana Caceres': 'Mjcc-0612@hotmail.com',
-      'Option2': 'caceres-camiloaga.mariana@bro.gdst.net',
+      'School Email': 'caceres-camiloaga.mariana@bro.gdst.net',
       'Option3': 'option3@example.com'
     };
 
@@ -73,7 +73,7 @@ export default function ContactUsPage() {
         <h4 className="text-m font-medium mb-2">Here is our team, feel free to enter the form, and email any one of us:</h4>
         <ul className="list-none space-y-3">
           <li>Head of UK HOCKEY: Mariana Caceres, Mjcc-0612@hotmail.com</li>
-          <li>Head of Blogs: -blank-</li>
+          <li>Head of Blogs: School Email, caceres-camiloaga.mariana@bro.gdst.net</li>
           <li>Support: -blank-</li>
         </ul>
       </div>
@@ -92,7 +92,7 @@ export default function ContactUsPage() {
             className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           >
             <option value="Mariana Caceres">Mariana Caceres</option>
-            <option value="Option2">Option 2</option>
+            <option value="School Email">School Email</option>
             <option value="Option3">Option 3</option>
           </select>
         </div>
@@ -145,7 +145,7 @@ export default function ContactUsPage() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            rows="4"
+            rows={4}
             className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             required
           />

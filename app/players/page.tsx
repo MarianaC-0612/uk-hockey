@@ -26,6 +26,31 @@ export default function HockeyPlayers() {
       achievement: "Best Rookie 2023",
       imageUrl: "/placeholder.svg",
     },
+    // New Players
+    {
+      number: 4,
+      firstName: "Emily",
+      lastName: "Davis",
+      club: "Storm Hawks",
+      achievement: "Best Defense 2023",
+      imageUrl: "/placeholder.svg",
+    },
+    {
+      number: 5,
+      firstName: "Chris",
+      lastName: "Brown",
+      club: "Thunder Dragons",
+      achievement: "Most Assists 2023",
+      imageUrl: "/placeholder.svg",
+    },
+    {
+      number: 6,
+      firstName: "Pat",
+      lastName: "Taylor",
+      club: "Snow Leopards",
+      achievement: "Most Improved 2023",
+      imageUrl: "/placeholder.svg",
+    },
   ];
 
   const handleSearch = (event) => {
@@ -35,6 +60,11 @@ export default function HockeyPlayers() {
 
   return (
     <div className="container mx-auto p-6">
+      {/* Instruction Text */}
+      <p className="mb-10">
+        Please enter <i>at least</i> one of the following fields, and press search when you are ready.
+      </p>
+
       {/* Search Filters */}
       <form onSubmit={handleSearch} className="mb-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

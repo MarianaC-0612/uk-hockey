@@ -1,0 +1,35 @@
+/* Stretch sections to the borders of the layout */
+.stretchSection {
+  /* Ensure the section stretches to the edges of the viewport */
+  margin-left: calc(-1 * (78vw - 102%)); /* Makes the section wider to touch the left border */
+  margin-right: calc(-1 * (78vw - 102%)); /* Makes the section wider to touch the right border */
+  padding-left: 2rem; /* Adjust padding as needed */
+  padding-right: 2rem; /* Adjust padding as needed */
+}
+
+/* Background colors */
+.greenBackground {
+  background-color: #8fbc8f47 ;
+}
+
+.greyBackground {
+  background-color: #f7f7f7;
+}
+
+/* Team section image styling */
+.teamImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add margin between sections */
+.johnDoeSpacing {
+  margin-bottom: 4rem; /* Adjust this value to control the gap between John Doe and Our Team */
+}
+
+.ourTeamSpacing {
+  margin-bottom: 4rem; /* Adjust this value to control the gap between Our Team and Our Website */
+}
