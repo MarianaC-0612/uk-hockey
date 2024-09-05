@@ -63,7 +63,7 @@ const SignInPage = () => {
           </button>
         </div>
         <div className={styles.additionalLinks}>
-          <p>Don't have an account? <a href="/sign-up" className={styles.signUpLink}>Sign up</a></p>
+          <p>Don&apos;t have an account? <a href="/sign-up" className={styles.signUpLink}>Sign up</a></p>
         </div>
       </div>
     </div>

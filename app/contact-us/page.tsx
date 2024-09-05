@@ -30,7 +30,6 @@ export default function ContactUsPage() {
       'Option3': 'option3@example.com'
     };
 
-    // Get the recipient email based on the selected 'toWhom' value
     const recipientEmail = recipientEmails[formData.toWhom as keyof typeof recipientEmails] || 'default@example.com';
     // Send email using EmailJS
     emailjs.send(

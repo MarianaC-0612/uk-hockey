@@ -7,7 +7,7 @@ const GetStartedPage = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Get Started</h1>
       <p className={styles.description}>
-        Welcome to the Get Started page! Here you'll find all the information you need to begin your journey.
+        Welcome to the Get Started page! Here you will find all the information you need to begin your journey.
       </p>
       <Link href="/" className={styles.homeLink}>
         <a>Back to Home</a>
