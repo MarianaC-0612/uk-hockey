@@ -1,8 +1,8 @@
 /* Stretch sections to the borders of the layout */
 .stretchSection {
   /* Ensure the section stretches to the edges of the viewport */
-  margin-left: calc(-1 * (78vw - 102%)); /* Makes the section wider to touch the left border */
-  margin-right: calc(-1 * (78vw - 102%)); /* Makes the section wider to touch the right border */
+  margin-left: calc(-1 * (74vw - 101%)); /* Makes the section wider to touch the left border */
+  margin-right: calc(-1 * (74vw - 101%)); /* Makes the section wider to touch the right border */
   padding-left: 2rem; /* Adjust padding as needed */
   padding-right: 2rem; /* Adjust padding as needed */
 }
